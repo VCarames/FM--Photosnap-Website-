@@ -86,3 +86,15 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* *********************** */
+/* VARIABLES */
+/* *********************** */
+
+:root {
+  --Font-Family: "DM Sans", sans-serif;
+
+  --Primary-Color: hsl(0, 0%, 0%);
+  --Secondary-Color: hsl(0, 0%, 87%);
+  --Tertiary-Color: hsl(0, 0%, 100%);
+}
