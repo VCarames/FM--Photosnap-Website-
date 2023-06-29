@@ -98,3 +98,11 @@ button {
   --Secondary-Color: hsl(0, 0%, 87%);
   --Tertiary-Color: hsl(0, 0%, 100%);
 }
+
+/* *********************** */
+/* BODY */
+/* *********************** */
+
+body {
+  background: var(--Tertiary-Color);
+}
