@@ -13,5 +13,49 @@
     <script src="./js/index.js"></script>
     <title>Photosnap</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <a
+          class="header__logo"
+          href="./index.html"
+          aria-label="Home - Photosnap"
+        >
+          <img src="./assets/shared/desktop/logo.svg" alt="" />
+        </a>
+        <nav class="header__nav" aria-label="main">
+          <button
+            class="header__nav-toggle"
+            aria-expanded="false"
+            aria-controls="header__nav-menu-list"
+            aria-label="menu"
+          >
+            <span class="header__nav-toggle-line"></span>
+            <span class="header__nav-toggle-line"></span>
+            <span class="header__nav-toggle-line"></span>
+          </button>
+
+          <div class="header__nav-menu">
+            <ul class="header__nav-menu-list" role="list">
+              <li class="header__nav-menu-item" role="listitem">
+                <a href="./about.html" class="header__nav-menu-link">Stories</a>
+              </li>
+              <li class="header__nav-menu-item" role="listitem">
+                <a href="./locations.html" class="header__nav-menu-link"
+                  >Features</a
+                >
+              </li>
+              <li class="header__nav-menu-item" role="listitem">
+                <a href="./careers.html" class="header__nav-menu-link"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+
+            <a href="" class="header__nav-menu-btn button">Get an invite</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
