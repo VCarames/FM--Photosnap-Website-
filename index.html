@@ -38,15 +38,17 @@
           <div class="header__nav-menu">
             <ul class="header__nav-menu-list" role="list">
               <li class="header__nav-menu-item" role="listitem">
-                <a href="./about.html" class="header__nav-menu-link">Stories</a>
+                <a href="./stories.html" class="header__nav-menu-link"
+                  >Stories</a
+                >
               </li>
               <li class="header__nav-menu-item" role="listitem">
-                <a href="./locations.html" class="header__nav-menu-link"
+                <a href="./features.html" class="header__nav-menu-link"
                   >Features</a
                 >
               </li>
               <li class="header__nav-menu-item" role="listitem">
-                <a href="./careers.html" class="header__nav-menu-link"
+                <a href="./pricing.html" class="header__nav-menu-link"
                   >Pricing</a
                 >
               </li>
@@ -57,6 +59,43 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <section class="intro-section">
+        <picture class="intro-section__picture">
+          <source
+            media="(min-width: 62.5rem)"
+            srcset="./assets/home/desktop/create-and-share.jpg"
+          />
+          <source
+            media="(min-width: 46.88rem)"
+            srcset="./assets/home/tablet/create-and-share.jpg"
+          />
+          <img src="./assets/home/mobile/create-and-share.jpg" alt="" />
+        </picture>
+
+        <div class="intro-section__content">
+          <h1 class="intro-section__heading">
+            Create and share your photo stories.
+          </h1>
+          <p class="intro-section__text">
+            Photosnap is a platform for photographers and visual storytellers.
+            We make it easy to share photos, tell stories and connect with
+            others.
+          </p>
+          <a href="/" class="intro-section__link">
+            <span class="intro-sectio__link-text">Get an invite</span>
+            <span>
+              <img
+                class="intro-sectio__link-icon"
+                src="./assets/shared/desktop/arrow.svg"
+                alt=""
+              />
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="footer__content">
