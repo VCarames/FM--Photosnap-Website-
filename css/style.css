@@ -506,3 +506,32 @@ body {
     margin-bottom: 4.5rem;
   }
 }
+
+@media (min-width: 62.5rem) {
+  .footer__content-container--one {
+    display: grid;
+
+    grid-template-areas:
+      "footer__logo footer__nav"
+      "footer__social footer__nav";
+
+    column-gap: 6.81rem;
+  }
+
+  .footer__nav-list {
+    flex-direction: column;
+    gap: 1.06rem;
+
+    text-align: start;
+
+    margin-bottom: 0;
+  }
+
+  .footer__link {
+    position: relative;
+
+    justify-content: end;
+
+    gap: 1.38rem;
+  }
+}
