@@ -837,6 +837,26 @@ body {
   }
 }
 
+@media (min-width: 62.5em) {
+  .features-section__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.88rem;
+  }
+
+  .features-section__item--two {
+    margin-bottom: -1.13rem;
+  }
+
+  .features-section__item--three {
+    margin-bottom: 1.56rem;
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
