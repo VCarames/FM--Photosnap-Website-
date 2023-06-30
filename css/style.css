@@ -391,7 +391,7 @@ body {
 
 .intro-section__content {
   grid-area: content;
-  padding: 4.5rem 1.5rem 4.5rem 2.06rem;
+  padding: 4.5rem 1.5rem 4.25rem 2.06rem;
 }
 
 .intro-section__content-stories {
@@ -455,15 +455,17 @@ body {
   line-height: 1.67;
 }
 
-.intro-section__link {
+.link {
   display: flex;
   align-items: center;
   gap: 1.13rem;
+}
 
+.intro-section__link {
   margin-top: 1.5rem;
 }
 
-.intro-section__link-text {
+.link__text {
   color: var(--Tertiary-Color);
   font-size: 0.75rem;
   font-family: var(--Font-Family);
@@ -545,6 +547,60 @@ body {
   .intro-section__text {
     max-width: 36ch;
   }
+}
+
+/* *********************** */
+/* BENEFITS - SECTION */
+/* *********************** */
+
+.benefits-section__content {
+  padding: 4.5rem 1.5rem 4.44rem 2.06rem;
+}
+
+.benefits-section__content--two {
+  padding: 5.75rem 1.5rem 5.75rem 2.06rem;
+}
+
+.benefits-section__row {
+  display: grid;
+  grid-template-areas: "picture " "content";
+}
+
+.benefits-section__picture--reverse {
+  grid-area: picture;
+}
+
+.benefits-section__picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.benefits-section__heading {
+  max-width: 12ch;
+
+  font-size: 2rem;
+  font-family: var(--Font-Family);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.21rem;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+
+.benefits-section__text {
+  font-size: 0.94rem;
+  font-family: var(--Font-Family);
+  font-weight: 400;
+  line-height: 1.67;
+
+  margin-bottom: 1.38rem;
+}
+
+.benefits-section__heading--black,
+.benefits-section__text--black,
+.link__text--black {
+  color: var(--Primary-Color);
 }
 
 /* *********************** */
