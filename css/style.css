@@ -558,7 +558,7 @@ body {
 }
 
 .benefits-section__content--two {
-  padding: 5.75rem 1.5rem 5.75rem 2.06rem;
+  padding: 5.75rem 1.5rem 90px 2.06rem;
 }
 
 .benefits-section__row {
@@ -641,6 +641,114 @@ body {
 
     padding: 1.25rem 1.5rem 4.44rem 7rem;
   }
+}
+
+/* *********************** */
+/* STORIES - SECTION */
+/* *********************** */
+
+.stories-section {
+  display: grid;
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four";
+}
+
+.stories-section__figure {
+  position: relative;
+}
+
+.stories-section__figure--one {
+  grid-area: one;
+}
+
+.stories-section__figure--two {
+  grid-area: two;
+}
+
+.stories-section__figure--three {
+  grid-area: three;
+}
+
+.stories-section__figure--four {
+  grid-area: four;
+}
+
+.stories-section__picture {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0.27%,
+    rgba(0, 0, 0, 0.661222) 100%
+  );
+}
+
+.stories-section__picture img {
+  position: relative;
+  z-index: -1;
+}
+
+.section__picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stories-section__figcaption {
+  width: 100%;
+
+  position: absolute;
+  bottom: -1px;
+  z-index: 1;
+
+  padding: 1.19rem 1.94rem 2.56rem 2.06rem;
+}
+
+.stories-section__figcaption-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  color: var(--Tertiary-Color);
+
+  margin-bottom: 1rem;
+}
+
+.figcaption__heading {
+  font-size: 1.13rem;
+  font-family: var(--Font-Family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.39;
+}
+
+.figcaption__photographer {
+  font-size: 0.81rem;
+  font-family: var(--Font-Family);
+  font-weight: 400;
+}
+
+.figcaption__link {
+  font-size: 12px;
+  font-family: var(--Font-Family);
+  font-weight: 700;
+  letter-spacing: 0.13rem;
+}
+
+.stories-section__figcaption hr {
+  background: var(--Tertiary-Color);
+  mix-blend-mode: normal;
+  opacity: 0.25;
+
+  margin-bottom: 1.25rem;
+}
+
+.figcaption__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* *********************** */
