@@ -751,6 +751,15 @@ body {
   align-items: center;
 }
 
+@media (min-width: 28.13rem) {
+  .stories-section {
+    display: grid;
+    grid-template-areas:
+      "one two"
+      "three four";
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
