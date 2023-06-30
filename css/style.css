@@ -268,7 +268,7 @@ body {
   min-height: 15.81rem;
 
   position: absolute;
-  top: 5.31rem;
+  top: 4.5rem;
   left: 0;
   bottom: 0;
   z-index: 4;
@@ -814,6 +814,32 @@ body {
   .features-section__item--three {
     margin-bottom: 1.56rem;
   }
+}
+
+/* *********************** */
+/* CTA - SECTION */
+/* *********************** */
+
+.cta-section {
+  background: url(../assets/shared/mobile/bg-beta.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 4rem 1.5rem 4rem 2.06rem;
+}
+
+.cta-section__content {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.cta-section__link {
+  gap: 16px;
 }
 
 /* *********************** */
