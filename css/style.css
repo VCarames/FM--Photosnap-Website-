@@ -603,7 +603,7 @@ body {
   color: var(--Primary-Color);
 }
 
-@media (min-width: 46.88rem) {
+@media (min-width: 46.88em) {
   .benefits-section__row {
     grid-template-areas: "picture content ";
     align-items: center;
@@ -632,6 +632,14 @@ body {
 
   .benefits-section__text {
     margin-bottom: 1.38rem;
+  }
+}
+
+@media (min-width: 62.5em) {
+  .benefits-section__content {
+    max-width: 38.13rem;
+
+    padding: 1.25rem 1.5rem 4.44rem 7rem;
   }
 }
 
