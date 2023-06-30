@@ -603,6 +603,38 @@ body {
   color: var(--Primary-Color);
 }
 
+@media (min-width: 46.88rem) {
+  .benefits-section__row {
+    grid-template-areas: "picture content ";
+    align-items: center;
+  }
+
+  .benefits-section__row--reverse {
+    grid-template-areas: "content picture";
+  }
+
+  .benefits-section__content {
+    max-width: 30.94rem;
+
+    padding: 1.25rem 1.5rem 4.44rem 3.38rem;
+  }
+
+  .benefits-section__heading {
+    max-width: 12ch;
+
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.26rem;
+    text-transform: uppercase;
+
+    margin-bottom: 16px;
+  }
+
+  .benefits-section__text {
+    margin-bottom: 1.38rem;
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
