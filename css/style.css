@@ -760,6 +760,17 @@ body {
   }
 }
 
+@media (min-width: 62.5rem) {
+  .stories-section {
+    display: grid;
+    grid-template-areas: "one two three four";
+  }
+
+  .stories-section__figcaption {
+    padding: 1.19rem 2.5rem 2.56rem 2.5rem;
+  }
+}
+
 /* *********************** */
 /* FOOTER */
 /* *********************** */
