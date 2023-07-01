@@ -802,9 +802,25 @@ body {
   .features-section {
     padding: 7.5rem 2rem 7.5rem 2.06rem;
   }
+
+  .features-section--custom {
+    padding: 7rem 2.5rem 15.75rem 2.38rem;
+  }
+
+  .features-section__list--custom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 @media (min-width: 62.5em) {
+  .features-section--custom {
+    padding: 9.25rem 2.5rem 16.75rem 2.38rem;
+  }
+
   .features-section__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
