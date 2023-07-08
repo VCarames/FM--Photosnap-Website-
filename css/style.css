@@ -845,7 +845,7 @@ body {
 /* *********************** */
 
 .plans-section {
-  padding: 4rem 1.75rem 4rem 1.81rem;
+  padding: 64px 28px 57px 1.81rem;
 }
 
 .plans-section__content {
@@ -993,7 +993,7 @@ body {
 
 @media (min-width: 46.88em) {
   .plans-section {
-    padding: 6.94rem 2.5rem 2.5rem 2.44rem;
+    padding: 6.94rem 2.5rem 6.88rem 2.44rem;
   }
 
   .plans-section__package {
@@ -1033,7 +1033,7 @@ body {
 
 @media (min-width: 62.5em) {
   .plans-section {
-    padding: 7.56rem 1.75rem 4rem 1.81rem;
+    padding: 7.56rem 1.75rem 181px 1.81rem;
   }
 
   .plans-section__packages {
@@ -1079,6 +1079,74 @@ body {
 
     text-align: center;
   }
+}
+
+/* *********************** */
+/* COMPARE - SECTION */
+/* *********************** */
+
+.comparison-section {
+  padding: 0 0 4.06rem 0;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+.comparison-section__table--mobile {
+  width: 85%;
+  margin: auto;
+  text-align: start;
+}
+
+.comparison-section__table-caption--mobile {
+  padding-bottom: 1.44rem;
+  border-bottom: solid 0.06rem var(--Primary-Color);
+}
+
+.comparison-section__table-caption--mobile,
+.comparison-section__table-heading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.13rem;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.comparison-section__table-heading {
+  padding: 1.44rem 1.25rem 1.06rem 0;
+}
+
+.comparison-section__table-row--checks td {
+  padding: 0.44rem 0 1.44rem 0;
+}
+
+.comparison-section__table-plan {
+  color: var(--Primary-Color);
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  opacity: 0.5;
+  text-align: start;
+  text-transform: uppercase;
 }
 
 /* *********************** */
