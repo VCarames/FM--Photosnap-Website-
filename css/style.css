@@ -1149,6 +1149,55 @@ thead th:nth-child(4) {
   text-transform: uppercase;
 }
 
+@media (min-width: 46.88em) {
+  .comparison-section {
+    padding: 0 1.88rem 6.69rem 2rem;
+  }
+
+  .comparison-section__table--mobile {
+    display: none;
+  }
+
+  .comparison-section--desktop {
+    max-width: 43.06rem;
+
+    margin: 0 auto;
+  }
+
+  .comparison-section__table-caption--desktop {
+    color: var(--Primary-Color);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.26rem;
+    text-transform: uppercase;
+  }
+
+  .comparison-section__table-caption {
+    padding-bottom: 2.5rem;
+    border-bottom: none;
+  }
+
+  .comparison-section__table-heading {
+    width: 40%;
+    padding: 1.38rem 1.25rem 1.63rem 1.44rem;
+  }
+
+  .comparison-section__table--desktop tr {
+    border-bottom: 0.06rem solid var(--Secondary-Color);
+  }
+
+  .comparison-section__table-thead--desktop {
+    border-bottom: 1px solid var(--Primary-Color);
+  }
+
+  .comparison-section__table--desktop td:not(:first-child),
+  .comparison-section__table--desktop th:not(:first-child) {
+    width: 12%;
+  }
+}
+
 /* *********************** */
 /* CTA - SECTION */
 /* *********************** */
